@@ -51,6 +51,8 @@ public class TestGame {
 
         int expected = 0;
         int actual = repo.findPlayerStrength("Danya");
+
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
